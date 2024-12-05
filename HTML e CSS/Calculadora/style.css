@@ -39,7 +39,8 @@ input{
 }
 
 .Espaço{
-    width: ;
+    width: 50%;
+    height: 60px;
 }
 
 .off:hover{
