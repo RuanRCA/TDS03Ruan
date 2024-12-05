@@ -5,17 +5,14 @@
 
 td{
     border: 1px solid rgba(0, 0, 0, 0.652);
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    border-radius: 10%;
+    height: 50px;
+    width: 50px;
     background-color:burlywood(0, 0, 0, 0.652);
     color: black;
     background-color: beige;
 }
 
-td:hover{
-    background-color: steelblue;
-}
 
 table{
     margin: auto;
@@ -38,27 +35,53 @@ input{
     text-align: right;
 }
 
-.Espaço{
-    width: 50%;
-    height: 60px;
+.vazio{
+    width: 600px;
+    height: 400px;
 }
 
 .off:hover{
     background-color: tomato;
 }
 
-.off{
-    background-color: gray;
+
+
+.Verde:hover{
+    background-color: beige;
+    border-color: black;
+   color:forestgreen;
+   background-color: greenyellow;
+   
+
+    
 }
 
-.green{
-    background-color: teal;
+.Verde1{
+    color:white ;
+    background-color: forestgreen;
 }
 
-.gray{
-    background-color: gray;
+.vermelho{
+   width: 100px;
+   height: 100px;
 }
 
 #dark:hover{
-    background-color: black;
+    background-color:aquamarine;
 }
+
+.Preto:hover{
+    width: 10px;
+    height: 10px;
+    background-color: darkturquoise;
+}
+
+.Vermelho:hover{
+    color: crimson;
+    background-color: firebrick;
+
+
+}
+
+
+
