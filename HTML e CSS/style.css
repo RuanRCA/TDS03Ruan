@@ -1,6 +1,6 @@
 body{
     color:black;
-    background-image: url(image/fundo\ de\ tela.png);
+    background-image: url(image/Caixas.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -56,4 +56,39 @@ nav a:hover{
    text-align: center;
   
  
+}
+
+ td , th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+}
+
+
+.Titulo{
+    text-align: center;
+    color:bisque
+}
+
+.Tabela {
+    background-color:orange
+
+}
+
+.Cidade{
+    background-color:darkorange;
+}
+.Bairro{
+    background-color: darkorange;
+}
+
+.Telefone{
+    background-color: darkorange;
 }
