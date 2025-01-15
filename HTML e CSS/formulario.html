@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <main>
+ 
+        <h1> Entregas Senac</h1>
+       
+        <form action="formulario.php" method="POST" autocomplete="on">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div>
+                    <label for="inome">Nome: </label>
+                    <input class="inputpessoais" type="text" name="nome" id="inome" required maxlength="50" placeholder="Nome completo"
+                        autocomplete="name">
+                </div>
+ 
+                <div>
+                    <label for="iidade">Idade:</label>
+                    <input class="inputpessoais" type="number" name="idade" id="iidade" min="18" max="99" placeholder="18 a 99" step="1"><!-- value="5" -->
+                </div>
+ 
+                <div>
+                    <label for="iemail">E-mail:</label>
+                    <input class="inputpessoais" type="email" name="email" id="iemail" placeholder="e-mail" autocomplete="email" required>
+                </div>
+               
+                <div>
+                    <label for="itelefone">Telefone:</label>
+                    <input class="inputpessoais" type="tel" name="telefone" id="itelefone" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}\-\d{4}$" required placeholder="(xx)x xxxx-xxxx"> <!-- Expressões Regulares-->
+                </div>
+ 
+                <div>
+                    <label for="smasc">Masculino</label>
+                    <input type="radio" name="sexo" id="smasc" checked>
+                   
+                    <label for="sfem">Feminino</label>
+                    <input type="radio" name="sexo" id="sfem">
+                </div>
+ 
+            </fieldset>
+ 
+            <fieldset>
+                <legend>Endereço: </legend>
+                <label class="CEP" for="icep">CEP:</label>
+                <input type="cep" name="cep" id="icep" value="00000-00"><br>
+ 
+                <label class="Bairro" for="iBairro">Bairro:</label>
+                <input type="bairro" name="bairro" id="idia" value=""><br>
+ 
+                 <label class="Complemento" for="icomplemento">Complemento:</label>
+                <input type="text" name="complemento" id="idcomplemento" list="1stcomplemento">
+                <datalist id = "1stcomplemento">
+                    <option value="Casa"> Casa</option>
+                    <option value="Apartamento"> Apartamento </option>
+                    <option value="Predio"> Prédio </option>
+                    <option value="Sobrado">Sobrado</option>
+                </datalist>
+                <br>
+ 
+                <label class = "Numero" for="inumero">Número:</label>
+                <input type="numero" name="numero" id="idnumero" value = ""><br>
+ 
+                <label class ="Ponto" for="iponto"> Ponto de Refrência:</label>
+                <input type="ponto" name = "ponto" id = "idponto" value = ""><br>
+ 
+ 
+                <label class = "Estado" for="iestado">Estado:</label>
+                <input type="text" name="estado" id="idestado" list="1stestado">
+                <datalist id = "1stestado">
+                    <option value="Acre"> Acre(AC)</option>
+                    <option value="Amazonas">Amazonas(AM)</option>
+                    <option value="Alogas">Alagoas(Al)</option>
+                    <option value="Amapa">Amapá(AP)</option>
+                    <option value="Bahia">Bahia(BA)</option>
+                    <option value="Ceara">Ceará(CE)</option>
+                    <option value="Espirito Santo">Espírito Santo(ES)</option>
+                    <option value="Goias">Goiáis(GO)</option>
+                    <option value="Maranhao">Maranhão(MA)</option>
+                    <option value="Mato Grosso">Mato Grosso (MT)</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul (MS)</option>
+                    <option value="Minas Gerais ">Minas Gerais (MG)</option>
+                    <option value="Para">Pará(PA)</option>
+                    <option value="Paraiba">Paraiba(PB)</option>
+                    <option value="Parana">Parana(PR)</option>
+                    <option value="Pernambuco">Pernambuco(PE)</option>
+                    <option value="Piaui">Piauí(PI)</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro(RJ)</option>
+                    <option value="Rio Grande do Norte ">Rio Grande do Norte(RN)</option>
+                    <option value="Rio Grande Do Sul ">Rio Grande do Sul(RS)</option>
+                    <option value="Roraima">Roraima(RR)</option>
+                    <option value="Rondonia">Rondônoia(RO)</option>
+                    <option value="Santa Catarina">Santa Catarina(SC)</option>
+                    <option value="Sergipe">Sergipe(SE)</option>
+                    <option value="Sao Paulo">São Paulo(SP)</option>
+                    <option value="Tocantins">Tocantins(To)</option>
+                </datalist>
+ 
+                <fieldset>
+                    <legend>Veículo:</legend>
+                    <label class="Tipo" for="iTipo">Tipos:</label>
+                    <input type="text" name = "tipo" id = "idtipo" list="1sttipo">
+                    <datalist id = "1sttipo">
+                        <option value="Bicicleta">Bicicleta</option>
+                        <option value="Moto">Moto</option>
+                        <option value="Carro">Carro</option>
+                        <option value="Caminhao">Caminhão</option>
+                        <option value="Savero">Savero</option><br>
+                    </datalist><br>
+                    <label class = "Placa" for="iPlaca">Placa:</label> <input type="text" name = "placa" id="iplaca" value=""><br>
+                    <p class="ParagrafoOpcoes">
+                        <button  class="cadastra"> Cadastrar</button>
+                        <button class = "Sair"> Sair</button>
+                    </p>
+                </fieldset>
+    
+</body>
+</html>
