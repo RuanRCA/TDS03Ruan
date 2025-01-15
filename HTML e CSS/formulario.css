@@ -12,6 +12,10 @@ html, body{
 body{
     position: relative;
     background-color:coral;
+    background-image: url(image/Formulario.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
  
 main{
@@ -20,7 +24,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 600px;
-    background-color:darksalmon;
+    background-color:orange;
     }
  
 label{
@@ -28,6 +32,7 @@ label{
     padding: 5px 0px 0px 10px;
     display: inline-block;
     width: 150px;
+
 }
  
 input{
@@ -50,11 +55,17 @@ fieldset{
 .ParagrafoOpcoes{
 text-align: center;
 }
-.Sair :hover{
+.Sair{
 background-color: crimson;
+width: 10vw;
+
+
  
 }
  
-.cadastrar :hover{
+.Cadastrar{
     background-color: green;
+    width: 10vw;
+   
+
 }
