@@ -1,0 +1,95 @@
+body{
+    color:black;
+    background-image: url(image/Caixas.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color:blue;
+    text-decoration: none;
+}
+
+img{
+    width: 600px;
+    height: 600px;
+   
+    
+}
+
+.center{
+    text-align: center;
+}
+
+h1{
+    color: honeydew;
+}
+
+.Casa{
+    text-align: center;
+}
+
+.I-Food{
+    text-align: center;
+}
+
+.container{
+    padding: 1px 95px;
+}
+
+nav a:hover{
+    color: green;
+}
+
+.Links{
+    background-color:gold;
+   width: 95%;
+   text-align: center;
+  
+ 
+}
+
+ td , th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+}
+
+
+.Titulo{
+    text-align: center;
+    color:bisque
+}
+
+.Tabela {
+    background-color:orange
+
+}
+
+.Cidade{
+    background-color:darkorange;
+}
+.Bairro{
+    background-color: darkorange;
+}
+
+.Telefone{
+    background-color: darkorange;
+}
