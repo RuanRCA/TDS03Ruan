@@ -93,3 +93,10 @@ table{
 .Telefone{
     background-color: darkorange;
 }
+
+footer{
+    background-color: rgb(228, 173, 90);
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
