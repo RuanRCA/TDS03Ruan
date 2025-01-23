@@ -47,3 +47,58 @@ img{
 
 }
 
+.Premio{
+    text-align: center;
+    border-radius: 80vw;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+}
+
+td , th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+
+}
+
+.Tabela{
+    text-align: center;
+   
+}
+
+.Locais{
+    background-color: rgb(211, 49, 49);
+    border-radius: 10px;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    height: 58px;
+    text-align: center;
+}
+
+.Cidade{
+    background-color: rgb(197, 17, 53);
+}
+.Rua{
+    background-color: rgb(197, 17, 53);
+}
+
+.Bairro{
+    background-color: rgb(197, 17, 53);
+}
+
+.Numero{
+    background-color: rgb(197, 17, 53);
+}
+
+.container{
+    padding: 1px 95px;
+}
+
+
