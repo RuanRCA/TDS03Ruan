@@ -21,7 +21,13 @@ img{
 
 .DBZ{
     background-color:brown;
-    width: 24%;
   
+  
+}
+
+.Dragon {
+    text-align: center;
+    background-color: darkgreen;
+    width: 30px;
 }
 
