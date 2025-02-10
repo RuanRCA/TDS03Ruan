@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+
+/*body{
+
+    background-image: url("Fotografias/Fundo_2.jpg");
+    
+   
+   
+   /*background: rgba(0, 0, 0 , 0.65)
+  
+   
+
+
+}*/
+
 .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -115,7 +129,7 @@ header{
     left: 10px;
     top: 10px;
     width: 300px;
-   /* background-color: aliceblue;*/
+   /*background-color: aliceblue;*/
     height: calc(100vh -100px);
     padding: 100px;
     margin-left: -300px;
@@ -171,3 +185,20 @@ h1{
     font-size: 4rem;
 }
 
+.Fundo1{
+    text-align: center;
+    align-items: center;
+    
+ 
+}
+
+.Rua{
+     width: 650px;
+     height: 350px;
+     border-radius: 10px;
+}
+
+
+.Meio{
+    background-color: #f36f04;
+}
