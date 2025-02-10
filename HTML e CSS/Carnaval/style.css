@@ -199,7 +199,7 @@ header{
     display: flex;
     justify-content: flex-end; /* Alinha o conteúdo à direita */
     align-items: center;
-    
+    padding-right: 20px;
     
 }
 
