@@ -217,25 +217,107 @@ header{
 }
 
 
-.Meio{
-    background-color:azure;
-    display: flex;
+.Container{
+
+    background-color: rgb(253, 141, 55);
+  /*background-color: white;*/
+
     height: 800px;
+    
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+    /*background-color:rgb(29, 103, 232);
+    display: flex;
+    height: 900px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+    justify-content: flex-start;*/
+    
+
   
     
 
 }
 
-.Brancas{
+.Cards{
+    /*background-color: rgb(106, 132, 248);*/
+    border-radius: 8px;
+    flex: 1;
+    /*min-width: 200px;*/
+    box-shadow: 0px 4px 8px rgba(0 ,0 ,0 ,0.2);
+    cursor: pointer;
+}
+
+.Cards, .Brancas{
 
     width: 300px;
     height: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 10px;
+
+
+}
+
+.Cards .content h3{
+
+    font-size: 26px;
+    margin-bottom: 10px;
+    color:white
+
+
+}
+
+.Cards .content p{
+    font-size: 17px;
+    color:black;
+    line-height: 1.3;
+}
+
+
+
+/*.Brancas{
+
+   /* width: 300px;*/
+   /* height: 300px;
     border-radius: 10px;
-
-}
-
-.Fotos{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 10px;
     
-}
+    
 
+}*/
+
+/*.Fotos{
+    /*flex-direction: row;*/
+    /*background-color: #fff;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0px 4px 8px rgba(0,0,0 ,0.2);
+    cursor: pointer;
+    /*padding: 20px;/*
+    /*justify-content: flex-start;/*
+    /*align-items: center;*/
+   /* border: 1px solid blue;*/
+   /*margin: 16px;
+  
+    flex: auto;
+    text-align: center;/*
+    
+}/*
+ 
 
