@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 *{
     margin: 0;
@@ -217,19 +219,18 @@ header{
 }
 
 
-.Container{
+.Container {
 
     background-color: rgb(253, 141, 55);
   /*background-color: white;*/
 
-    height: 800px;
-    
+   height: 700px;
     margin: 50px auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 20px;
+    padding: 30px;
 
     /*background-color:rgb(29, 103, 232);
     display: flex;
@@ -260,20 +261,28 @@ header{
 
 .Cards, .Brancas{
 
-    width: 300px;
-    height: 300px;
+    /*width: 300px;
+    height: 300px;*/
+    background-color:rgb(245, 135, 25);
+    width: 100%;
+    height: 65%;
+   /* justify-content: center;*/
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    margin-bottom: 10px;
+   margin-bottom: 2px;
+  
 
 
 }
+
+
 
 .Cards .content h3{
 
     font-size: 26px;
     margin-bottom: 10px;
-    color:white
+    color:rgb(57, 13, 234);
+    
 
 
 }
@@ -288,8 +297,8 @@ header{
 
 /*.Brancas{
 
-   /* width: 300px;*/
-   /* height: 300px;
+   width: 300px;
+    height: 300px;
     border-radius: 10px;
     width: 100%;
     height: auto;
@@ -300,24 +309,28 @@ header{
     
 
 }*/
+.rodape{
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #040f3e;
+}
 
-/*.Fotos{
-    /*flex-direction: row;*/
-    /*background-color: #fff;
-    border-radius: 8px;
-    flex: 1;
-    min-width: 200px;
-    box-shadow: 0px 4px 8px rgba(0,0,0 ,0.2);
-    cursor: pointer;
-    /*padding: 20px;/*
-    /*justify-content: flex-start;/*
-    /*align-items: center;*/
-   /* border: 1px solid blue;*/
-   /*margin: 16px;
-  
-    flex: auto;
-    text-align: center;/*
-    
-}/*
+.santos{
+
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
  
 
