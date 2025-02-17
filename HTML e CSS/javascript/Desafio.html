@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    <script>
+          let entrada = prompt('Digite 1 número : ');
+         
+        let horas = (entrada / 3600 ) |0;
+
+        let minutos = ((entrada-(horas*3600)) /60 ) |0 ;
+
+        let segundos = entrada-(horas*3600)-(minutos*60) ;
+
+        alert('Entrada ' + entrada + ' corresponde ' + horas + ' horas ' + minutos + ' minutos ' + segundos + ' segundos');
+
+    </script> 
+
+
+    
+           
+     
+</body>
+</html>
