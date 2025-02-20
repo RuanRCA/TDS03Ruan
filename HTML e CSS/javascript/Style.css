@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+div {
+    background-color: white;
+    width: 80px;
+    position: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 70px;
+}
+
+main{
+    position: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 20px;
+    margin-left: calc(50vw - 200px);
+    margin-right: calc(50vw - 200px);
+}
+
+
