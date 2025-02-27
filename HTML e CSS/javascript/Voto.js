@@ -8,16 +8,11 @@ function verificar(){
         mostrar.innerHTML = '<strong> Voçê não pode votar </strong>';
     }
 
-    else if (verificar == 16 && verificar <= 18 ){
+    else if (verificar < 18 || verificar > 65 ){
 
         mostrar.innerHTML = '<strong> Voto Facultativo </strong>';
 
     }
-
-    else if (verificar <= 65){
-        mostrar.innerHTML = '<strong> Voto Facultativo </strong>';
-    }
-
     else {
         mostrar.innerHTML = '<strong> Voto Obrigatório </strong';
     }
