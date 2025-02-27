@@ -4,37 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="Semana.js" type="text/javascript" defer></script>
 </head>
 <body>
 
     <h1>Dia da Semana</h1>
 
-    <select name="dia" id="check" onchange="checar()">
-    <option value=""></option>
-    <option value="0">0</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-    <option value="6">6</option>
-    </select>
+    
 
-    <p id="mostrar"></p>
+     <select name="Escolha" id="select" onchange="verificacao()">
+        <option value="" disabled selected>selecione um número</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+     </select>
 
+     <h2 id="mostrar"></h2>
 
-
-    <!-- <input type="number" name="Dia" id="check" onchange="checar()" >
-                <select id = "dias">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                </select>
-     -->
+  
     
 </body>
 </html>
