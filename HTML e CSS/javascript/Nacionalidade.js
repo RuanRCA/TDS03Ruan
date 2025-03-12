@@ -15,9 +15,6 @@ function consultar() {
         mostrar .innerHTML = '<strong> Você não é do Brasil , você é estrangeiro </strong>';
     }
 
-    // else {
-    //     mostrar.innerText = 'Você é estrangeiro';
-    // }
-
+   
 
 }
