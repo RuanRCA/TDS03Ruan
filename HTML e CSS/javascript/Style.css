@@ -5,31 +5,27 @@
 }
 
 body{
-    background-color: gray;
+    background-color:rgb(250, 193, 49)
 }
 
-div {
-    background-color: white;
-    width: 80px;
-    position: center;
+div{
+    padding: 10px;
+    color: black;  
     text-align: center;
+}
+#imagem{
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
     align-items: center;
-    justify-content: center;
-    justify-items: center;
-    height: 70px;
 }
 
-main{
-    position: center;
+h1{
     text-align: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 20px;
-    margin-left: calc(50vw - 200px);
-    margin-right: calc(50vw - 200px);
 }
+
+
+
+
 
 
