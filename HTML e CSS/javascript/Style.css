@@ -1,27 +1,32 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
 }
 
 body{
-    background-color:rgb(250, 193, 49)
+   background-color:rgb(250, 193, 49);
 }
 
 div{
     padding: 10px;
     color: black;  
     text-align: center;
+    margin-top: 20px;
 }
 #imagem{
     height: 300px;
     width: 300px;
     border-radius: 20%;
-    align-items: center;
+ 
 }
 
 h1{
     text-align: center;
+}
+
+#horas{
+    font-size: 30px;
 }
 
 
