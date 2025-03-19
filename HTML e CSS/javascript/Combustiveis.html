@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Combustiveis.css">
+    <script src="Combustiveis.js" type="text/javascript" defer ></script>
+</head>
+<body>
+
+    <header>
+        <h1>Combustiveis</h1>
+    </header>
+
+    <main>
+        <div id="valor">
+            <h2>Digite o preço do Combustivel? </h2>
+           <input type="text" name = 'valor' id ="preco" > 
+        </div>
+
+        <input type="radio" id="gasolina" name="combustivel" value="combustiveis">
+        <label for="gasolina">Gasolina</label> 
+
+        <input type="radio" id = "etanol" name = "combustivel" value="combustiveis">
+        <label for="etanol" >Etanol</label> <br>
+
+        <select name="Escolha" id="select">
+            <option value="" disabled selected>selecione um valor </option>
+            <option value="0.65">0.65</option>
+            <option value="0.66">66%</option>
+            <option value="0.67">67%</option>
+            <option value="0.68">68%</option>
+            <option value="0.69">69%</option>
+            <option value="0.70">70%</option>
+            <option value="0.71">71%</option>
+            <option value="0.72">72%</option>
+            <option value="0.73">73%</option>
+            <option value="0.74">74%</option>
+            <option value="0.75">75%</option> 
+           
+         </select>
+    </main> <br>
+
+    <section>
+        <button id="button" onclick="calcular()">Calcular</button>
+        <p id="resultado"></p>
+    </section>
+
+
+
+
+    
+</body>
+</html>
