@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Combustiveis.css">
-    <script src="Combustiveis.js" type="text/javascript" defer ></script>
+    <script src="Combustiveis.js" type="text/javascript" defer></script>
 </head>
-<body>
 
+<body>
     <header>
+
         <h1>Combustiveis</h1>
+
     </header>
 
-    <main>
-        <div id="valor">
+    <main id="combustivel">
+
+        <div>
             <h2>Digite o preço do Combustivel? </h2>
-           <input type="text" name = 'valor' id ="preco" > 
+            <input type="text" name='valor' id="preco">
         </div>
 
-        <input type="radio" id="gasolina" name="combustivel" value="combustiveis">
-        <label for="gasolina">Gasolina</label> 
-
-        <input type="radio" id = "etanol" name = "combustivel" value="combustiveis">
-        <label for="etanol" >Etanol</label> <br>
+        <br><input type="radio" id="gasolina" name="combustivel" value="combustiveis">
+        <label for="gasolina">Gasolina</label>
+        <input type="radio" id="etanol" name="combustivel" value="combustiveis">
+        <label for="etanol">Etanol</label> <br>
 
         <select name="Escolha" id="select">
             <option value="" disabled selected>selecione um valor </option>
@@ -37,19 +40,14 @@
             <option value="0.72">72%</option>
             <option value="0.73">73%</option>
             <option value="0.74">74%</option>
-            <option value="0.75">75%</option> 
-           
-         </select>
-    </main> <br>
+            <option value="0.75">75%</option>
 
-    <section>
+        </select>
+
         <button id="button" onclick="calcular()">Calcular</button>
         <p id="resultado"></p>
-    </section>
 
+    </main>
 
-
-
-    
 </body>
 </html>
