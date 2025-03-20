@@ -1,26 +1,26 @@
 function calcular (){
+    // estou apresentando o valor digitado pelo usuário
     let preco = document.getElementById('preco');
     let valor = Number(preco.value);
-    let percentagem =  getElementById('select');
-    let porcentagem = Number(percentagem.value);
-    let gasolina = document.getElementById('gasolina');
-    let etanol = document.getElementById('etanol');
-    let calcpercentagem = 1/(valor*porcentagem);
-    let calcporcentagem = (valor*porcentagem);
+    //estou pegando apresentado o select
+    let select = document.getElementById('select');
+    // estou buscando o valor informado para fazer os calculos. obs o select é 1 array
+    let valores = select.options [select.selectedIndex];
+    // estou pegando o valor a partir do value informado no select do html
+    let porcetagem = valores.value;
+    let calcgasolina = (valor*porcetagem);
+    let calcetanol = 1/(valor*porcetagem);
     let resultado = document.getElementById('resultado');
-    
 
-    if (gasolina.checkVisibility){
-
-        resultado.innerText = 'preço válido' + calcporcentagem;
-
+    if(document.getElementById('gasolina').checked){
+      resultado.innerText = `O valor ficará de R$ ${calcgasolina}`;
     }
 
-    else {
-        resultado.innerText = 'preço invalidao' + calcpercentagem;
+    else if (document.getElementById('etanol').checked){
+        resultado.innerText = `O valor ficará de R$ ${calcetanol}`;
     }
 
-
-
-
+    else{
+        resultado.innerText = "nenhum valor encontrado";
+    }
 }
