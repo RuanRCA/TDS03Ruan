@@ -10,6 +10,7 @@ function calcular (){
     let porcetagem = valores.value;
     // conta para calcular o valor da gasolina
     let calcgasolina = (valor*porcetagem);
+    // esse código é outro jeito de pegar duas casas de  números
     const total = calcgasolina.toFixed(2)
     // conta para calcular o valor do etanol
     let calcetanol = 1/(valor*porcetagem)*100;
@@ -18,7 +19,7 @@ function calcular (){
     const totalgasolina = calcgasolina.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     const totaletanol = calcetanol.toLocaleString('pt-BR' ,{style: 'currency' , currency: 'BRL' } );
 
-    if(document.getElementById('gasolina').checked){
+    if (document.getElementById('gasolina').checked){
       resultado.innerText = `Abasteça com Etanol se o seu  preço for menor  ou igual a : ${totalgasolina}`;
     }
 
