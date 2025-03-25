@@ -13,7 +13,7 @@ function calcular (){
     // esse código é outro jeito de pegar duas casas de  números
     const total = calcgasolina.toFixed(2)
     // conta para calcular o valor do etanol
-    let calcetanol = 1/(valor*porcetagem)*100;
+    let calcetanol = valor* (1/porcetagem);
     let resultado = document.getElementById('resultado');
      // este código está pegando os calculos e fazendo a conversão para dinheiro
     const totalgasolina = calcgasolina.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
