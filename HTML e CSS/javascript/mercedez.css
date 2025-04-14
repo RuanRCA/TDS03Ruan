@@ -1,13 +1,112 @@
 * {
     margin: 0;
     padding: 0;
+
+}
+
+body {
+    background-color: gray
+}
+
+h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1rem;
+}
+
+.mercedez {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding-left: 30px;
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.menu a {
+    display: block;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    padding-block: 16px;
+
+}
+
+.menu a:hover {
+    background-color: darkgray;
+}
+
+.hero {
+    height: calc(100vh -70px);
+    background: center / cover no-repeat;
+}
+
+hamburger {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid white;
+    cursor: pointer;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin-top: 5px;
+}
+
+@media (max-width: 750px) {
+
+    .hamburger {
+        display:block;
+    }
+
+    .nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: gray;
+        clip-path: circle(100px at 90% -15%) ;
+        transition: 1s ease-out;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
    
-}
-body{
-    background-color: coral;
+
 }
 
-
+/* 
 .mercedez{
     width:65px;
     height: 65px;
@@ -17,8 +116,6 @@ body{
    
     
 }
-
-
 
 /* .container{
     max-width: 1080px;
@@ -30,7 +127,7 @@ body{
     height: 75px;
     padding: 10px;
 } */
-
+/* 
 
 header {
     background-color: black;
@@ -42,12 +139,9 @@ h1{
     text-align: center;
     color: white;
     /* margin-top:30px; */
-    padding: 1px;
-    
-   
-  
- 
-}
+/*
+}/*
 
-
-
+i{
+    background-color: white;
+} 
