@@ -5,10 +5,10 @@
 }
 
 body {
-    background-color: gray
+    background-image: linear-gradient(to right ,rgb(70, 68, 68) ,rgb(2, 2, 25));;
 }
 
-h1 {
+.titulo {
     color: white;
     font-size: 3.5rem;
     font-weight: bold;
@@ -117,6 +117,53 @@ a {
         
     }
 }
+
+.container{
+    margin: 10px;
+    width: 45%;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    gap: flex;
+    margin-inline: 50px;
+}
+
+.card{
+ min-height: 70px;
+ height: 100%;
+ border-radius: 10px;
+ display: flex;
+ align-items: center;
+ flex-grow: 1;
+ position: relative;
+ transition: flex-grow 0.5s ease;
+ 
+
+}
+
+.card:hover{
+    flex-grow: 7;
+}
+
+.card-content > .title {
+    margin-left: 10px;
+    translate: 0 100%;
+    opacity: 0;
+
+}
+
+.card:hover .title{
+    opacity: 1;
+    translate: 0.0;
+}
+
+img{
+    width: 420px;
+    height:420px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
 
 /* 
 hamburger {
