@@ -81,7 +81,7 @@ header {
 .sociais button {
     width: 40px;
     height: 40px;
-    background-image: linear-gradient(45deg, #4e2df1, #5030ed);
+    /* background-image: linear-gradient(45deg, #4e2df1, #5030ed); */
     border: none;
     border-radius: 8px;
     cursor: pointer;
