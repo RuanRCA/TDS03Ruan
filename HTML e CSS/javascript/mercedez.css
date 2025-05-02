@@ -339,6 +339,9 @@ img{
 .sociais button i {
     font-size: 20px;
     color: white;
+  
+   
+   
 }
 
 .sociais button {
@@ -349,6 +352,7 @@ img{
     border-radius: 8px;
     cursor: pointer;
     margin-right: 10px;
+  
 }
 
 h3{
@@ -368,113 +372,25 @@ h3{
 .rodape{
     display: flex;
     /* justify-content: space-between; */
-    flex-direction:column;
-    /* justify-content: space-around; */
-    overflow: hidden;
+   flex-direction:row;
+    justify-content: space-around; 
+    /* display: inline-block; */
+    /* overflow: hidden; */
+    
 }
 
-.rodape h3{
+
+
+ .rodape h3{
     padding: 16px;
-    padding-left: 10px;
-}
+   
+} 
 
 .rodape p{
-    padding-left: 16px;
+     padding-left: 16px; 
 }
  
 
 
-
-/* 
-hamburger {
-    display: none;
-    border: none;
-    background: none;
-    border-top: 3px solid #fff;
-    cursor: pointer;
-}
-
-.hamburger::before,
-.hamburger::after {
-    content: " ";
-    display: block;
-    width: 30px;
-    height: 3px;
-    background:#ffff;
-    margin-top: 5px;
-}
-
-@media (max-width: 750px) {
-
-    .hamburger {
-        display:block;
-    }
-
-    .nav{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: #a5c;
-      
-        clip-path: circle(100px at 90% -15%) ;
-        transition: 1s ease-out;
-
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        gap: 0;
-        pointer-events: none;
-    }
-
-    .nav.active .nav{
-        clip-path: circle(1500px at 90% -15);
-        pointer-events: all;
-    } */
-
-   
-
-/* } */
-
-/* 
-.mercedez{
-    width:65px;
-    height: 65px;
-    border-radius: 60%;
-    padding-left: 30px;
-   
-   
-    
-}
-
-/* .container{
-    max-width: 1080px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    height: 75px;
-    padding: 10px;
-} */
-/* 
-
-header {
-    background-color: black;
-
-}
-
-
-h1{
-    text-align: center;
-    color: white;
-    /* margin-top:30px; */
-/*
-}/*
-
-i{
-    background-color: white;
-} 
 
 
