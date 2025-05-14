@@ -30,8 +30,8 @@
      $UsuarioSenha = $_GET['senha'];
      
 
-for ($Indice = 0; $Indice < count($Usuarios); $Indice++){
-    if ($UsuarioEmail == $Usuarios[$Indice]['email'] && $UsuarioSenha == $Usuarios[$Indice]['senha']){
+for ($Indice=0; $Indice < count ($Usuarios) ; $Indice++){
+    if ($UsuarioEmail == $Usuarios[$Indice]['email'] && $UsuarioSenha == $Usuarios[$Indice] ['senha']){
      $UsuarioAutenticado = true;
      $_SESSION['id'] = $Usuarios[$Indice]['id'];
      $_SESSION['perfil'] = $Usuarios[$Indice]['perfil'];
@@ -44,11 +44,11 @@ for ($Indice = 0; $Indice < count($Usuarios); $Indice++){
 }
 
 if ($UsuarioAutenticado){
-    $_SESSION['autenticado'] = 'sim';
-    header('location: home.php');
+    $_SESSION['autenticacao'] = 'sim';
+    header('location:home.php');
 }
 else {
-    $_SESSION['autenticado'] = 'nao';
-    header('location: index.php?login=erro');
+    $_SESSION['autenticacao'] = 'nao';
+    header('location:index.php?login=erro');
 }
     ?>
