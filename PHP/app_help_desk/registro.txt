@@ -1,0 +1,2 @@
+1|adm|Ruan|gabinete|Hardware|placa de vídeo queimou
+1|adm|Ruan|Monitor|Hardware|Tela Rachada

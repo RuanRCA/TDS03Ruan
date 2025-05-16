@@ -35,10 +35,10 @@
               <div class="row">
                 <div class="col">
                   
-                  <form action = "registro_chamdo.php" method = "post">
+                  <form action = "registro_chamado.php" method = "post">
                     <div class="form-group">
                       <label>Título</label>
-                      <input type="text" name = "titulo "class="form-control" placeholder="Título">
+                      <input name = "titulo" type="text" class="form-control" placeholder="Título">
                     </div>
                     
                     <div class="form-group">
@@ -59,10 +59,12 @@
 
                     <div class="row mt-5">
                       <div class="col-6">
-                        <button class="btn btn-lg btn-warning btn-block" type="submit">Voltar</button>
+
+                   <a class="btn btn-lg btn-warning btn-block" href="home.php">Voltar</a>
                       </div>
 
                       <div class="col-6">
+                        
                         <button class="btn btn-lg btn-info btn-block" type="submit">Abrir</button>
                       </div>
                     </div>
